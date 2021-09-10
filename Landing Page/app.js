@@ -1,13 +1,7 @@
 const navMenu = document.querySelector('#navbar__list');
 const navSections = document.querySelectorAll('section');
 
-/**
- * End Global Variables
- * Start Helper Functions
- * 
-*/
 
-// build the nav
 function buildNav() {
     const fragment = document.createDocumentFragment();
 
@@ -19,7 +13,7 @@ function buildNav() {
 
         // scroll to anchor ID using scroll to event
         aTag.addEventListener("click", () => {
-            navSection.scrollIntoView({behavior: "smooth"});
+            navSection.scrollIntoView({behavior: "auto"});
             });
         liTag.appendChild(aTag);
         fragment.appendChild(liTag);
