@@ -11,5 +11,3 @@ Detailed project specifications [here](https://review.udacity.com/#!/rubrics/265
 2. CSS
 3. JAVASCRIPT
 
-## View result
-See the landing page [here](https://main.github.io/Landing-page/) or clone this repository and open index.html in browser.
